@@ -162,11 +162,11 @@ function AppsPreview() {
 }
 
 const PROJECTS: Project[] = [
-  { id: 'workflows', cat: 'work', index: '01', title: 'Project Title', desc: 'PLACEHOLDER - tell me what to put here: what these screens show.', Icon: FlowIcon, logos: [GHL], eyebrow: 'Screenshots', Section: AutomationsPanel, span: 2, Preview: WorkflowsPreview },
-  { id: 'plan', cat: 'work', index: '02', title: 'Sample Document', desc: 'PLACEHOLDER - tell me what to put here: the document this opens.', Icon: PlanIcon, logos: [GHL], eyebrow: 'Sample document', Section: PlanPanel, Preview: PlanPreview },
-  { id: 'funnels', cat: 'sites', index: '06', title: 'Pages and sites', desc: 'PLACEHOLDER - the pages in this reel. Spin the reel.', Icon: GlobeIcon, logos: [GHL], eyebrow: 'Pages and sites', Section: BarrelPanel, Preview: FunnelsPreview },
-  { id: 'ai', cat: 'ai', index: '07', title: 'Your systems title here', desc: 'PLACEHOLDER - tell me what to put here: the systems you run.', Icon: SparkIcon, logos: [CLAUDE_CODE, CODEX, HERMES], eyebrow: 'Your systems', Section: AIWindow, Preview: AIPreview },
-  { id: 'apps', cat: 'apps', index: '08', title: 'Apps and tools', desc: 'PLACEHOLDER - tell me what to put here: the apps and tools you ship.', Icon: DeviceIcon, logos: [PLAY, EXPO, CHROME], eyebrow: 'Your apps', Section: AppsWindow, span: 2, Preview: AppsPreview },
+  { id: 'workflows', cat: 'work', index: '01', title: 'Administrative Task Tracker', desc: 'A sample system for organizing tasks, priorities, deadlines, and progress.', Icon: FlowIcon, logos: [GHL], eyebrow: 'Task management sample', Section: AutomationsPanel, span: 2, Preview: WorkflowsPreview },
+  { id: 'plan', cat: 'work', index: '02', title: 'Records & Data Tracker', desc: 'A sample tracker for maintaining records, checking information, and monitoring pending items.', Icon: PlanIcon, logos: [GHL], eyebrow: 'Records management sample', Section: PlanPanel, Preview: PlanPreview },
+  { id: 'funnels', cat: 'sites', index: '06', title: 'Meeting Coordination Planner', desc: 'A sample planning workflow for meeting schedules, attendees, and follow-up actions.', Icon: GlobeIcon, logos: [GHL], eyebrow: 'Meeting planning sample', Section: BarrelPanel, Preview: FunnelsPreview },
+  { id: 'ai', cat: 'ai', index: '07', title: 'Executive Support Dashboard', desc: 'A sample dashboard for organizing priorities, schedules, and administrative tasks.', Icon: SparkIcon, logos: [CLAUDE_CODE, CODEX, HERMES], eyebrow: 'Executive support sample', Section: AIWindow, Preview: AIPreview },
+  { id: 'apps', cat: 'apps', index: '08', title: 'Administrative Tools & Templates', desc: 'Explore sample client follow-up logs, document checklists, and weekly planning boards.', Icon: DeviceIcon, logos: [PLAY, EXPO, CHROME], eyebrow: 'Administrative portfolio samples', Section: AppsWindow, span: 2, Preview: AppsPreview },
 ]
 
 /** The icon tile, or the real marks stacked horizontally in its place. */
