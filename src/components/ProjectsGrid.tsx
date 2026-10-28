@@ -53,10 +53,9 @@ const PLAY = '/icons/ai/googleplay.svg'
 const CHROME = '/icons/ai/googlechrome.svg'
 const EXPO = '/icons/ai/expo.svg'
 
-const WF_SHOTS = ['project-1.jpg', 'project-2.jpg', 'project-3.jpg', 'project-4.jpg'].map(
-  (f) => `/placeholders/${f}`,
-)
-
+const WF_SHOTS = [
+  '/portfolio-template/samples/thumbs/placeholder-site-01.jpeg',
+]
 const FUNNEL_SHOTS = [gymFunnel[0], bookingFunnel[0], websiteFunnel[0]].filter(Boolean)
 const thumbSrc = (f: Funnel) => `/${f.dir ?? 'funnels'}/thumbs/${f.file.replace('.html', '.jpeg')}`
 
