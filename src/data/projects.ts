@@ -1,14 +1,12 @@
+
 export type AppStat = { value: string; label: string }
 
 export type AppProject = {
   name: string
   tagline: string
   description: string
-  /** Optional - omit for gradient placeholder cards */
   imageSrc?: string
-  /** CSS object-position override. Defaults to 'top center'. */
   imagePosition?: string
-  /** External brand color - not a site token. Passed via --app-color inline prop. */
   accentColor: string
   stats: AppStat[]
   badge: string
@@ -17,82 +15,77 @@ export type AppProject = {
 /** @deprecated use AppProject */
 export type MobileApp = AppProject
 
-/**
- * Your apps. Every value is a PLACEHOLDER. Screenshots live in
- * public/placeholders/ - swap in your own (960x514 works well).
- */
 const STATS: AppStat[] = [
-  { value: '0', label: 'Stat one' },
-  { value: '0', label: 'Stat two' },
-  { value: '0', label: 'Stat three' },
+  { value: 'Sample', label: 'Portfolio work' },
+  { value: 'Admin', label: 'Focus area' },
+  { value: 'Demo', label: 'Project type' },
 ]
-
-const DESC = 'PLACEHOLDER - tell me what to put here: what the app does, who it is for, and where it is published.'
 
 export const mobileApps: MobileApp[] = [
   {
-    name: 'App Name One',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
-    imageSrc: '/placeholders/app-1.jpg',
-    imagePosition: '50% 30%',
+    name: 'Administrative Task Tracker',
+    tagline: 'A sample system for organizing tasks and deadlines.',
+    description:
+      'A portfolio sample demonstrating how administrative tasks can be organized by priority, due date, status, and follow-up action. Designed to help a busy professional keep track of responsibilities and avoid missed deadlines.',
     accentColor: '#2563EB',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Portfolio Sample',
   },
   {
-    name: 'App Name Two',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
-    imageSrc: '/placeholders/app-2.jpg',
+    name: 'Records & Data Tracker',
+    tagline: 'A structured approach to accurate recordkeeping.',
+    description:
+      'A sample tracking system inspired by administrative and financial documentation work. It demonstrates how records, pending requirements, and status updates can be organized for easier review and follow-up.',
     accentColor: '#7C3AED',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Portfolio Sample',
   },
   {
-    name: 'App Name Three',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
-    imageSrc: '/placeholders/app-3.jpg',
+    name: 'Meeting Coordination Planner',
+    tagline: 'Keep meetings, notes, and action items organized.',
+    description:
+      'A sample meeting coordination workflow with scheduling details, discussion notes, assigned action items, and follow-up reminders. It reflects administrative coordination skills developed through organizational work.',
     accentColor: '#16A34A',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Portfolio Sample',
   },
 ]
 
 export const webApps: AppProject[] = [
   {
-    name: 'Web App One',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
+    name: 'Executive Support Dashboard',
+    tagline: 'One place to review priorities and upcoming deadlines.',
+    description:
+      'A proposed portfolio dashboard for tracking daily priorities, appointments, pending tasks, and important deadlines. This concept demonstrates an organized approach to executive and administrative support.',
     accentColor: '#0EA5E9',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Concept Sample',
   },
   {
-    name: 'Web App Two',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
+    name: 'Client Follow-Up Log',
+    tagline: 'Track inquiries, updates, and next steps clearly.',
+    description:
+      'A sample follow-up log for recording customer inquiries, communication dates, current status, and next actions. It demonstrates how consistent tracking can support timely communication and reliable service.',
     accentColor: '#EF4444',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Portfolio Sample',
   },
   {
-    name: 'Web App Three',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
-    imageSrc: '/placeholders/project-3.jpg',
+    name: 'Document Checklist',
+    tagline: 'Make document review more consistent.',
+    description:
+      'A sample checklist for reviewing required documents, checking completeness, noting discrepancies, and tracking pending submissions. It is based on relevant administrative and financial-records skills.',
     accentColor: '#0891B2',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Portfolio Sample',
   },
   {
-    name: 'Web App Four',
-    tagline: 'PLACEHOLDER - one-line tagline.',
-    description: DESC,
-    imageSrc: '/placeholders/project-4.jpg',
+    name: 'Weekly Planning Board',
+    tagline: 'Plan the week and monitor progress.',
+    description:
+      'A sample weekly planning board for grouping tasks, setting priorities, monitoring progress, and identifying follow-up items. It demonstrates practical organization and deadline-management methods.',
     accentColor: '#F59E0B',
     stats: STATS,
-    badge: 'Badge',
+    badge: 'Portfolio Sample',
   },
 ]
