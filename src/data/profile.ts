@@ -46,14 +46,14 @@ export type Profile = {
 }
 
 export const profile: Profile = {
-  name: 'Your Name',
-  firstName: 'Your Name',
-  handle: '@yourhandle',
-  role: 'PLACEHOLDER - your title',
+  name: 'Nedy N. Regnim',
+  firstName: 'Nedy',
+  handle: '@nedyregnim',
+  role: 'Executive Assistant & Administrative VA',
   avatarSrc: '/avatar.svg',
-  verifiedLabel: 'PLACEHOLDER - what the tick means (e.g. a certification)',
-  email: 'you@example.com',
-  location: 'PLACEHOLDER - your city or timezone',
+  verifiedLabel: 'Administrative Support & Financial Management Graduate',
+  email: 'nedy.nregnim@gmail.com',
+  location: 'Naga City, Philippines',
   // Pick any icon from https://phosphoricons.com and import it above.
   stats: [
     { value: '0 yrs', label: 'PLACEHOLDER', Icon: Briefcase },
@@ -62,11 +62,11 @@ export const profile: Profile = {
   ],
   // The intro types this line, then flies it into the Home headline.
   // Keep it short: two halves, 5-8 words total.
-  displayName: { line1: 'Your headline here.', line2: 'Keep it short.' },
+  displayName: { line1: 'Organized Administrative Support.', line2: 'Reliable, detail-oriented, and proactive.' },
   hero: {
-    body: 'PLACEHOLDER - one line on what you do and who you do it for.',
+    body: 'I support teams with scheduling, documentation, records management, data entry, and stakeholder follow-ups.',
     portraitSrc: '/avatar.svg',
-    portraitAlt: 'Portrait placeholder',
+    portraitAlt: 'Professional profile portrait',
   },
   socials: [
     { label: 'Facebook profile', href: '#', iconPath: '/icons/facebook.svg' },
