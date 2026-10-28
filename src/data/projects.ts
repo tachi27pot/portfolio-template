@@ -24,6 +24,7 @@ const STATS: AppStat[] = [
 export const mobileApps: MobileApp[] = [
   {
     name: 'Administrative Task Tracker',
+    imageSrc: '/portfolio-template/samples/thumbs/placeholder-site-01.jpeg',
     tagline: 'A sample system for organizing tasks and deadlines.',
     description:
       'A portfolio sample demonstrating how administrative tasks can be organized by priority, due date, status, and follow-up action. Designed to help a busy professional keep track of responsibilities and avoid missed deadlines.',
