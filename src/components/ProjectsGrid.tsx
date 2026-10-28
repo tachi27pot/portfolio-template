@@ -300,9 +300,9 @@ export default function ProjectsGrid() {
       <header className="pgrid__head">
         <span className="pgrid__eyebrow">Projects</span>
         <h1 className="pgrid__title" id="projects-title">
-          Your projects headline goes right here.
+          Administrative Support Portfolio
         </h1>
-        <p className="pgrid__lede">PLACEHOLDER - tell me what to put here: one line on the work below. Open a card to see it full size.</p>
+        <p className="pgrid__lede">Explore sample administrative workflows, task trackers, records management tools, meeting planners, and client follow-up systems.</p>
       </header>
 
       {phone && (
